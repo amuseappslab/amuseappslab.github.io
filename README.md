@@ -1,1 +1,1 @@
-# amuseappslab.github.io
+Replace amuseappslab@gmail.com with your email. Add screenshots and Play Store links.
