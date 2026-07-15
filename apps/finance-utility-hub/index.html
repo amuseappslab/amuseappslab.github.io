@@ -1,1 +1,106 @@
-<!doctype html><html><head><link rel='stylesheet' href='../../css/style.css'></head><body><header><h1>Finance Utility Hub</h1></header><div class='container'><div class='card'><p>EMI, SIP, GST, FD, RD, BMI, Age, Unit Converter and more.</p><a class='btn' href='privacy-policy.html'>Privacy Policy</a></div></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finance Utility Hub | Amuse Apps Lab</title>
+<meta name="description" content="Finance Utility Hub — 10 financial and utility calculators in one offline-first Android app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<script>document.documentElement.className += ' js';</script>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="../../index.html"><span class="logo">A</span> Amuse Apps Lab</a>
+  <div class="links">
+    <a href="../../index.html">Home</a>
+    <a href="../../index.html#apps">Apps</a>
+    <a href="../../support.html">Support</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="../../contact.html">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="container">
+    <span class="eyebrow"><span class="dot"></span> Android app</span>
+    <h1>Finance <span class="gt">Utility Hub</span></h1>
+    <p class="sub">Ten financial &amp; utility calculators in one polished, offline-first app. No account, no clutter — just fast, accurate answers.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="../../support.html">Support</a>
+      <a class="btn btn-ghost" href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker">Calculators</div>
+        <h2>Everything you need to calculate</h2>
+        <p>All tools work fully offline and keep your history only on your device.</p>
+      </div>
+      <div class="grid cols-3">
+        <div class="card mini hover reveal"><div class="tile">💰</div><h3>EMI</h3><p class="muted">Loan EMIs with full amortization.</p></div>
+        <div class="card mini hover reveal"><div class="tile">📈</div><h3>SIP</h3><p class="muted">Mutual-fund growth &amp; returns.</p></div>
+        <div class="card mini hover reveal"><div class="tile">🧾</div><h3>GST</h3><p class="muted">Add or remove GST instantly.</p></div>
+        <div class="card mini hover reveal"><div class="tile">🏦</div><h3>FD &amp; RD</h3><p class="muted">Deposit maturity values.</p></div>
+        <div class="card mini hover reveal"><div class="tile">⚖️</div><h3>BMI</h3><p class="muted">Body Mass Index &amp; category.</p></div>
+        <div class="card mini hover reveal"><div class="tile">🎂</div><h3>Age</h3><p class="muted">Exact years, months &amp; days.</p></div>
+        <div class="card mini hover reveal"><div class="tile">％</div><h3>Percentage</h3><p class="muted">Everyday percentage math.</p></div>
+        <div class="card mini hover reveal"><div class="tile">📏</div><h3>Unit Converter</h3><p class="muted">Length, weight, temp, area.</p></div>
+        <div class="card mini hover reveal"><div class="tile">💱</div><h3>Currency</h3><p class="muted">Live &amp; offline reference rates.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker">Highlights</div>
+        <h2>Why you'll love it</h2>
+      </div>
+      <div class="grid cols-3">
+        <div class="card hover reveal"><div class="tile">🔒</div><h4 class="feature">Private by design</h4><p class="muted mt0">History &amp; favorites never leave your device.</p></div>
+        <div class="card hover reveal"><div class="tile">⚡</div><h4 class="feature">Works offline</h4><p class="muted mt0">Every calculator runs without a connection.</p></div>
+        <div class="card hover reveal"><div class="tile">🌙</div><h4 class="feature">Light &amp; dark</h4><p class="muted mt0">A clean fintech look, day or night.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div class="about">
+        <div class="brand"><span class="logo">A</span> Amuse Apps Lab</div>
+        <p>An independent mobile app studio building smart, privacy-friendly apps for everyday life.</p>
+      </div>
+      <div class="flinks">
+        <strong>Product</strong>
+        <a href="../../index.html#apps">All apps</a>
+        <a href="index.html">Finance Utility Hub</a>
+        <a href="../../support.html">Support</a>
+      </div>
+      <div class="flinks">
+        <strong>Legal</strong>
+        <a href="privacy-policy.html">App Privacy</a>
+        <a href="../../terms-and-conditions.html">Terms</a>
+        <a href="../../contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="copy">© 2026 Amuse Apps Lab. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
