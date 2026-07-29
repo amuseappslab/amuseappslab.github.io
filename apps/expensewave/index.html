@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ExpenseWave | Amuse Apps Lab</title>
+<meta name="description" content="ExpenseWave — a salary-cycle expense tracker with shared Circles, insights and voice entry. Know exactly what's left till payday.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<script>document.documentElement.className += ' js';</script>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="../../index.html"><span class="logo">A</span> Amuse Apps Lab</a>
+  <div class="links">
+    <a href="../../index.html">Home</a>
+    <a href="../../index.html#apps">Apps</a>
+    <a href="../../support.html">Support</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="../../contact.html">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="container">
+    <span class="eyebrow"><span class="dot"></span> Android app</span>
+    <h1>Expense<span class="gt">Wave</span></h1>
+    <p class="sub">Your money, from payday to payday — clear and shared. Track spending, see exactly what's left in your salary cycle, and split expenses with your circle.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="../../support.html">Support</a>
+      <a class="btn btn-ghost" href="privacy-policy.html">Privacy Policy</a>
+    </div>
+    <div class="trust">
+      <span><span class="ic">✓</span> Salary-cycle tracking</span>
+      <span><span class="ic">✓</span> Split with friends</span>
+      <span><span class="ic">✓</span> Voice entry</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker">Features</div>
+        <h2>Everything you need to stay on top of money</h2>
+        <p>Personal tracking and shared expenses, in one clean app.</p>
+      </div>
+      <div class="grid cols-3">
+        <div class="card mini hover reveal"><div class="tile">💚</div><h3>Money till payday</h3><p class="muted">Set your salary cycle and always know what's safe to spend.</p></div>
+        <div class="card mini hover reveal"><div class="tile">⚡</div><h3>Add in seconds</h3><p class="muted">Log expenses fast, or by voice — just say "Petrol 500".</p></div>
+        <div class="card mini hover reveal"><div class="tile">📊</div><h3>Smart insights</h3><p class="muted">See where every rupee goes, by category and cycle.</p></div>
+        <div class="card mini hover reveal"><div class="tile">👥</div><h3>Shared Circles</h3><p class="muted">Split trips, rent and dinners — see who owes whom, settle up.</p></div>
+        <div class="card mini hover reveal"><div class="tile">🔔</div><h3>Circle alerts</h3><p class="muted">Get notified the moment a member adds a shared expense.</p></div>
+        <div class="card mini hover reveal"><div class="tile">🔒</div><h3>Secure</h3><p class="muted">Lock the app with your fingerprint or face.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="kicker">Highlights</div>
+        <h2>Why you'll love it</h2>
+      </div>
+      <div class="grid cols-3">
+        <div class="card hover reveal"><div class="tile">📆</div><h4 class="feature">Built around payday</h4><p class="muted mt0">A salary-cycle view most trackers miss — plan the whole month.</p></div>
+        <div class="card hover reveal"><div class="tile">☁️</div><h4 class="feature">Synced &amp; shared</h4><p class="muted mt0">Your data syncs securely and shared Circles keep everyone in sync.</p></div>
+        <div class="card hover reveal"><div class="tile">🌙</div><h4 class="feature">Light &amp; dark</h4><p class="muted mt0">A premium green look, day or night.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta reveal">
+        <h2>Coming soon to Google Play</h2>
+        <p>ExpenseWave is launching on Android. Have feedback or a feature idea?</p>
+        <a class="btn btn-dark" href="../../contact.html">Get in touch →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div class="about">
+        <div class="brand"><span class="logo">A</span> Amuse Apps Lab</div>
+        <p>An independent mobile app studio building smart, privacy-friendly apps for everyday life.</p>
+      </div>
+      <div class="flinks">
+        <strong>Product</strong>
+        <a href="../../index.html#apps">All apps</a>
+        <a href="index.html">ExpenseWave</a>
+        <a href="../../support.html">Support</a>
+      </div>
+      <div class="flinks">
+        <strong>Legal</strong>
+        <a href="privacy-policy.html">App Privacy</a>
+        <a href="../../terms-and-conditions.html">Terms</a>
+        <a href="../../contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="copy">© 2026 Amuse Apps Lab. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
